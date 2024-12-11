@@ -166,6 +166,7 @@ class _InputState extends State<Input> {
                   child: Padding(
                     padding: textPadding,
                     child: TextField(
+                      maxLength: 200,
                       enabled: widget.options.enabled,
                       autocorrect: widget.options.autocorrect,
                       autofocus: widget.options.autofocus,
@@ -192,7 +193,7 @@ class _InputState extends State<Input> {
                           ),
                       focusNode: _inputFocusNode,
                       keyboardType: widget.options.keyboardType,
-                      maxLines: 5,
+                      maxLines: 3,
                       minLines: 1,
                       onChanged: widget.options.onTextChanged,
                       onTap: widget.options.onTextFieldTap,
