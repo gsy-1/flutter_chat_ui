@@ -623,6 +623,7 @@ class ChatState extends State<Chat> {
                 Container(
                   color: widget.theme.backgroundColor,
                   child: Column(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
                       Flexible(
                         child: widget.messages.isEmpty
