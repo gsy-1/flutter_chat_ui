@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_chat_types/flutter_chat_types.dart' as types;
-import 'package:flutter_chat_ui/flutter_chat_ui.dart';
-import 'package:flutter_chat_ui/src/models/date_header.dart';
-import 'package:flutter_chat_ui/src/models/message_spacer.dart';
-import 'package:flutter_chat_ui/src/models/preview_image.dart';
-import 'package:flutter_chat_ui/src/models/unread_header_data.dart';
-import 'package:flutter_chat_ui/src/util.dart';
+import 'package:flutter_chat_ui_plus/flutter_chat_ui.dart';
+import 'package:flutter_chat_ui_plus/src/models/date_header.dart';
+import 'package:flutter_chat_ui_plus/src/models/message_spacer.dart';
+import 'package:flutter_chat_ui_plus/src/models/preview_image.dart';
+import 'package:flutter_chat_ui_plus/src/models/unread_header_data.dart';
+import 'package:flutter_chat_ui_plus/src/util.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {
