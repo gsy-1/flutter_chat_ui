@@ -378,9 +378,9 @@ class Message extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.end,
               children: [
                 GestureDetector(
-                  onDoubleTap: () => onMessageDoubleTap?.call(context, message),
+                  // onDoubleTap: () => onMessageDoubleTap?.call(context, message),
                   onLongPress: () => onMessageLongPress?.call(context, message),
-                  onTap: () => onMessageTap?.call(context, message),
+                  // onTap: () => onMessageTap?.call(context, message),
                   child: onMessageVisibilityChanged != null
                       ? VisibilityDetector(
                           key: Key(message.id),
